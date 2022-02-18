@@ -127,7 +127,7 @@ function HeaderView() {
   // rendering...
   return (
     <div
-      className="wrap-header container-fluid bg-white w-100vw"
+      className="wrap-header container-fluid bg w-100vw"
       style={{ height: isSmDevice ? 76 : 104 }}>
       <div className="header container h-100 d-flex justify-content-between align-i-center">
         {/* Logo */}
@@ -135,7 +135,7 @@ function HeaderView() {
           <img
             src={logoUrl}
             width={isSmDevice ? 78 : 112}
-            height={isSmDevice ? 36 : 48}
+            height={isSmDevice ? 36 : 100}
           />
         </Link>
 
@@ -155,7 +155,7 @@ function HeaderView() {
               <Input
                 maxLength={200}
                 size={isSmDevice ? 'middle' : 'large'}
-                placeholder={!isSmDevice ? 'Nhập từ khoá cần tìm' : 'Tìm kiếm'}
+                placeholder={!isSmDevice ? 'Nhập tên sản phẩm, từ khoá cần tìm' : 'Tìm kiếm'}
               />
             </AutoComplete>
             <Button type="primary" size={isSmDevice ? 'middle' : 'large'}>

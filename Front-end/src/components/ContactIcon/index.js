@@ -7,7 +7,7 @@ function ContactIcon() {
   return (
     <a
       className="Contact-Icon-Link"
-      href="https://fb.com/TuanNguyen250400"
+      href="https://fb.com/2022anh1k"
       target="blank">
       <Tooltip title="Liên hệ tư vấn" placement="left">
         <img

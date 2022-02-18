@@ -46,18 +46,16 @@ function FooterView() {
       <div className="container p-tb-32">
         <p className="t-center" style={{ color: '#888' }}>
           <span className="font-size-18px">
-            CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ TTB STORE
+            CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ BK STORE
           </span>
           <br />
-          <strong>Trụ sở:</strong>&nbsp;Số 16 VillaD, The Manor, khu đô thị mới
-          Mỹ Đình Mễ Trì, Phường 1, Quận 12, Thành phố Hồ Chí Minh
+          <strong>Trụ sở:</strong>&nbsp;Số 101 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội
           <br />
-          <strong>Văn phòng:</strong>&nbsp; Tầng 16, Tòa Văn phòng, Vincom, số
-          54 Nguyễn Chí Thanh, Phường 5, Quận 12, Thành phố Hồ Chí Minh
+          <strong>Văn phòng:</strong>&nbsp; Số 101 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội
           <br />
           <strong>Điện&nbsp;thoại:</strong>&nbsp;0840.67.9081 |{' '}
-          <strong>Email:</strong>&nbsp;ttbstore@gmail.com&nbsp;|{' '}
-          <strong>Website:</strong>&nbsp;<a href="/">ttbstore.vn</a>
+          <strong>Email:</strong>&nbsp;bkstore@gmail.com&nbsp;|{' '}
+          <strong>Website:</strong>&nbsp;<a href="/">bkstore.vn</a>
         </p>
         <div className="d-flex align-i-center justify-content-center">
           <img src={registeredImg} width={175} />

@@ -95,6 +95,7 @@ const menu = [
     icon: mainboardIcon,
     title: 'Mainboard - Bo mạch chủ',
   },
+
 ];
 
 function MenuFilter(props) {
@@ -111,7 +112,7 @@ function MenuFilter(props) {
             className="w-100 p-lr-8 p-tb-4  Filter-menu-item">
             <Link to={item.to} className="d-flex align-i-center">
               <img src={item.icon} className="icon m-lr-8" />
-              <span className="title">{item.title}</span>
+              <span className="title font-size-18px">{item.title}</span>
             </Link>
           </div>
         );
