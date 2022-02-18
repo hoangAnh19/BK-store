@@ -5,11 +5,12 @@ Hướng dẫn cài đặt chương trình
   ## Tạo database 
   ```
   Sử dụng mongodb tạo database: bk-store 
-  import toàn bộ các file .json có trong thư mục database
+  import toàn bộ các file .json có trong thư mục database vào trong DB bk-store
   ```
 
- ## 📦 **Cài đặt node_module trước khi chạy**
+ ## 📦 **Cài môi trường nodejs >= v.14.16.1  https://nodejs.org/en/download/**
   ```
+  install node_modules
   > cd Back-end -> yarn install
 
   > cd Front-end -> yarn install
