@@ -1,6 +1,6 @@
 
 
-Hướng dẫn cài đặt chương trình
+  ## Hướng dẫn cài đặt chương trình
 
   ## Tạo database 
   ```
@@ -16,11 +16,11 @@ Hướng dẫn cài đặt chương trình
   > cd Front-end -> yarn install
   ```
 
-- ##  Run project
+ ##  Run project
   ```
     > cd front-end -> yarn start
     > cd back-end -> yarn start 
 
   ```
-- ## Document API 
+ ## Document API 
   `> browser: http://localhost:{PORT}/api-docs/`
