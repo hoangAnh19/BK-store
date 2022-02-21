@@ -8,7 +8,7 @@ Hướng dẫn cài đặt chương trình
   import toàn bộ các file .json có trong thư mục database vào trong DB bk-store
   ```
 
- ## 📦 **Cài môi trường nodejs >= v.14.16.1  https://nodejs.org/en/download/**
+  ## Cài môi trường nodejs >= v.14.16.1  https://nodejs.org/en/download/**
   ```
   install node_modules
   > cd Back-end -> yarn install
@@ -16,11 +16,11 @@ Hướng dẫn cài đặt chương trình
   > cd Front-end -> yarn install
   ```
 
-- ##  **Run project**
+- ##  Run project
   ```
     > cd front-end -> yarn start
     > cd back-end -> yarn start 
-    > browser: http://localhost:{ PORT | 3000 }
+
   ```
-- ## 🌍 **Document API**
+- ## Document API 
   `> browser: http://localhost:{PORT}/api-docs/`
